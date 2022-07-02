@@ -14,7 +14,14 @@
      <link rel="stylesheet" href="style.css"></link>
       <title>google keep clone App By M.Soulimani</title>
   </head>
-  <body>
+    <body>
+      <div class="modal">
+       <div class="modal-content">
+          <input class="modal-title" placeholder="Title" type="text">   
+          <input class="modal-text" placeholder="Take a note..." type="text">   
+          <span class="modal-close-button" type="submit">Close</span>
+        </div>    
+    </div>  
     <main>
       <header>
         <img class="header-logo" src="https://www.gstatic.com/images/branding/product/1x/keep_48dp.png">
@@ -32,9 +39,15 @@
       </div>
       <div id="notes"></div>
       <div id="placeholder">
-          <i class="ri-lightbulb-flash-fill"></i>
+          <i class="ri-lightbulb-flash-fill" style="color:#fbbc04" ></i>
         <!-- <img id="placeholder-logo" src="https://icon.now.sh/lightbulb_outline"> -->
         <p id="placeholder-text">Notes you add appear here</p>
+      </div>
+      <div id="color-tooltip">
+        <div class="color-option" data-color="#fff" id="white"></div>
+        <div class="color-option" data-color="#d7aefb" id="purple"></div>
+        <div class="color-option" data-color="#fbbc04" id="orange"></div>
+        <div class="color-option" data-color="#a7ffeb" id="teal"></div>
       </div>
     </main>
     <script src="app.js"></script>
