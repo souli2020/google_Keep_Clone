@@ -1,7 +1,7 @@
-                const $form = document.querySelector('#form')
-            const $noteTitle = document.querySelector('#note-title');
-            const $noteText = document.querySelector('#note-text');
-            const  $formButtons = document.querySelector('#form-buttons');
+        const $form = document.querySelector('#form')
+        const $noteTitle = document.querySelector('#note-title');
+        const $noteText = document.querySelector('#note-text');
+        const  $formButtons = document.querySelector('#form-buttons');
         const $placeholder = document.getElementById("placeholder-text")
         const $notes = document.querySelector('#notes');
         const $close =  document.querySelector('#form-close-button')
